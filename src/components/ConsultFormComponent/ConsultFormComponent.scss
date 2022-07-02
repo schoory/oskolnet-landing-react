@@ -1,0 +1,93 @@
+@import '../../assets/styles/global.scss';
+
+.consult-form {
+  width: 100%;
+  background: linear-gradient(92.37deg, #263057 29.38%, #1D1444 100.81%);
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+  color: $white;
+  border-radius: 15px;
+  padding: 28px 59px 26px 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  &__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    width: 100%;
+  }
+  &__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+  }
+  &__inputs {
+    display: flex;
+    gap: 22px;
+    width: 100%;
+  }
+  &__input {
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: $white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $blue-dark;
+    width: 100%;
+    border: 2px solid transparent;
+    transition: border .2s ease-out;
+    &::placeholder {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: $blue-dark;
+    }
+    &:hover {
+      border: 2px solid $gray;
+    }
+    &:focus {
+      border: 2px solid $blue;
+    }
+  }
+  &__btn {
+    flex: none;
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .consult-form {
+    padding: 25px 20px;
+    gap: 20px;
+    align-items: center;
+    &__title {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    &__wrapper {
+      flex: none;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    &__controls {
+      gap: 10px;
+    }
+    &__inputs {
+      flex-direction: column;
+      gap: 15px;
+    }
+    &__input {
+      padding: 9px 12px !important;
+    }
+  }
+}

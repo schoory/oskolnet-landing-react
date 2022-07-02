@@ -1,0 +1,51 @@
+@import '../../assets/styles/global.scss';
+
+.docs-page {
+  background: $white;
+  padding: 26px 0px 51px 0px;
+  & .o-section {
+    gap: 35px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  &__group-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+  &__group-item {
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    & > svg {
+      width: 24px;
+      height: 30px;
+      color: $blue;
+    }
+  }
+  &__fileinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__filename {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $blue-dark;
+  }
+  &__filesize {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $text-secondary;
+  }
+}

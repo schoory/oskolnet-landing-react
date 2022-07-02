@@ -1,0 +1,67 @@
+@import '../../assets/styles/global.scss';
+
+.post-page {
+  padding: 17px 0px 259px 0px;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  & .o-section {
+    gap: 73px;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 109px;
+    align-items: center;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: flex-start;
+    & > a {
+      margin-top: 25px;
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      & > svg {
+        width: 9px;
+        height: 9px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &__image {
+    width: 725px;
+  }
+  &__date {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    & > p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .post-page {
+    & .o-section {
+      gap: 20px;
+    }
+    &__wrapper {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
+    &__image {
+      width: 100%;
+    }
+  }
+}

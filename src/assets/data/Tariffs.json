@@ -1,0 +1,1496 @@
+[
+  {
+    "id": 1,
+    "name": "Medium",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Total",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Energy",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Ultra",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Rush",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Medium #2",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Total #2",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Energy #2",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Ultra #2",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Rush #2",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Medium #3",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Total #3",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Energy #3",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Ultra #3",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Rush #3",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 1,
+      "name": "Интернет",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Medium TV",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Total TV",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Energy TV",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Ultra TV",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Rush TV",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Medium TV #2",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Total TV #2",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Energy TV #2",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Ultra TV #2",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Rush TV #2",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Medium TV #3",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Total TV #3",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Energy TV #3",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Ultra TV #3",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Rush TV #3",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 2,
+      "name": "Интернет + Кабельное ТВ",
+      "accent": true,
+      "type": "home"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Medium Smart",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Total Smart",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Energy Smart",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Ultra Smart",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Rush Smart",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Medium Smart #2",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Total Smart #2",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Energy Smart #2",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Ultra Smart #2",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Rush Smart #2",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Medium Smart #3",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Total Smart #3",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 3,
+      "name": "Интернет + Smart TV",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Medium Phone",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Total Phone",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Energy Phone",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Ultra Phone",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Rush Phone",
+    "speed": 300,
+    "price": 1100,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Medium Phone #2",
+    "speed": 30,
+    "price": 300,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Total Phone #2",
+    "speed": 60,
+    "price": 450,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Energy Phone #2",
+    "speed": 100,
+    "price": 600,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Ultra Phone #2",
+    "speed": 200,
+    "price": 900,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 4,
+      "name": "Интернет + Телефония",
+      "accent": false,
+      "type": "home"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Бизнес-1",
+    "speed": 2,
+    "price": 500,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Бизнес-2",
+    "speed": 5,
+    "price": 1000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Бизнес-4",
+    "speed": 100,
+    "price": 2000,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": true,
+      "type": "business"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Бизнес-8",
+    "speed": 20,
+    "price": 3000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Бизнес-16",
+    "speed": 30,
+    "price": 5000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Бизнес-1",
+    "speed": 2,
+    "price": 500,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Бизнес-2",
+    "speed": 5,
+    "price": 1000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Бизнес-4",
+    "speed": 100,
+    "price": 2000,
+    "accent": true,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": true,
+      "type": "business"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Бизнес-8",
+    "speed": 20,
+    "price": 3000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Бизнес-16",
+    "speed": 30,
+    "price": 5000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 5,
+      "name": "Для ИП",
+      "accent": false,
+      "type": "business"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Бизнес-32",
+    "speed": 30,
+    "price": 5000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 6,
+      "name": "Для ЮЛ",
+      "accent": true,
+      "type": "business"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Бизнес-64",
+    "speed": 30,
+    "price": 5000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 6,
+      "name": "Для ЮЛ",
+      "accent": true,
+      "type": "business"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Бизнес-128",
+    "speed": 30,
+    "price": 5000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 7,
+      "name": "SIP-телефония",
+      "accent": true,
+      "type": "business"
+    }
+  },
+  {
+    "id": 53,
+    "name": "Бизнес-254",
+    "speed": 30,
+    "price": 5000,
+    "accent": false,
+    "features": ["Бесплатное подключение", "Статический IP-адрес"],
+    "environment": ["Wi-Fi роутер"],
+    "bonuses": [
+      { "name": "Бонус 1", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-1.png" },
+      { "name": "Бонус 2", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-2.png" },
+      { "name": "Бонус 3", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-3.png" },
+      { "name": "Бонус 4", "icon": "https://schoory.github.io/oskolnet-landing-pages/images/bonuses/bonus-4.png" }
+    ],
+    "description": "Интернет и IP-телевидение у вас дома! Высокая и стабильная скорость доступа в Интернет, множество популярных каналов: кино, детям, ток-шоу, бизнес, спорт, новости и пр. Тарифное предложение доступно для подключения новых и перехода действующих клиентов. Подключение производится при наличии технической возможности.",
+    
+    "category": {
+      "id": 7,
+      "name": "SIP-телефония",
+      "accent": false,
+      "type": "business"
+    }
+  }
+]

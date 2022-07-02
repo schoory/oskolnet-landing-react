@@ -1,0 +1,123 @@
+@import '../../assets/styles/global.scss';
+
+.payment-page {
+  padding: 23px 0px 212px 0px;
+  & .o-section {
+    gap: 42px;
+  }
+  &__accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    transition: all .2s ease-out;
+  }
+}
+
+.accordion-item {
+  padding: 15px 30px;
+  background: $white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  &[data-wrap] {
+    overflow: hidden;
+    gap: 0px;
+    & .accordion-item__content {
+      margin-top: 0;
+      max-height: 0;
+      opacity: 0;
+      transform: translate(0, -10%);
+    }
+    & .accordion-item__wrap-btn {
+      & > span:last-child {
+        transform: translate(-50%, -50%) rotate(90deg);
+      }
+    }
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    &:hover, &:focus {
+      & .accordion-item__title {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: $blue;
+    text-align: left;
+  }
+  &__wrap-btn {
+    flex: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid $blue-dark;
+    & > span {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 12px;
+      height: 2px;
+      background: $blue-dark;
+      transition: all .2s ease-out;
+      &:last-child {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    transition: all .1s ease-out;
+  }
+  &__address {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: .9;
+    & > b {
+      font-weight: 700;
+    }
+  }
+  &__schedule {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: .9;
+    & > b {
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payment-page {
+    padding: 20px 0px 40px 0px;
+    & .o-section {
+      gap: 20px;
+    }
+  }
+}

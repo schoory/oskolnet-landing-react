@@ -1,0 +1,188 @@
+@import '../../assets/styles/global.scss';
+
+.o-speedtest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  &__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 354px;
+    height: 354px;
+  }
+  &__tester {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    &-arrow {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(150deg);
+      width: 190px;
+      height: 20px;
+      transition: transform .1s ease-out;
+      background: linear-gradient(90deg, transparent 45%,rgba(105, 132, 240, 0) 50%, #6984F0 100%);
+    }
+    &-angelwrapper {
+      position: absolute;
+      left: calc(50% - 50px);
+      height: 50%;
+      transform-origin: 50% 100%;
+      &:nth-child(1) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(-120deg); 
+      }
+      &:nth-child(2) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(-90deg); 
+      }
+      &:nth-child(3) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(-60deg); 
+      }
+      &:nth-child(4) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(-30deg); 
+      }
+      &:nth-child(5) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(0deg); 
+      }
+      &:nth-child(6) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(30deg); 
+      }
+      &:nth-child(7) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(60deg); 
+      }
+      &:nth-child(8) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(90deg); 
+      }
+      &:nth-child(9) { 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -100%) rotate(120deg); 
+      }
+      &:nth-child(1) > p { transform: rotate(120deg); }
+      &:nth-child(2) > p { transform: rotate(90deg); }
+      &:nth-child(3) > p { transform: rotate(60deg); }
+      &:nth-child(4) > p { transform: rotate(30deg); }
+      &:nth-child(5) > p { transform: rotate(0deg); }
+      &:nth-child(6) > p { transform: rotate(-30deg); }
+      &:nth-child(7) > p { transform: rotate(-60deg); }
+      &:nth-child(8) > p { transform: rotate(-90deg); }
+      &:nth-child(9) > p { transform: rotate(-120deg); }
+    }
+    &-mark {
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 39px;
+    }
+  }
+  &__speed {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & > p {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 58px;
+    }
+    & > small {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 26px;
+      color: $text-secondary;
+    }
+  }
+  &__indicators {
+    display: flex;
+    align-items: center;
+  }
+  &__indicator {
+    padding: 0px 25px;
+    display: flex;
+    align-items: flex-end;
+    border-right: 1px solid $blue;
+    &:last-child {
+      border-right: none;
+    }
+  }
+  &__name {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+  &__value {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 36px;
+    color: $blue;
+    margin-left: 10px;
+  }
+  &__unit {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 3px;
+    color: $text-secondary;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 77px;
+  }
+  &__start-btn {
+    width: 404px;
+    margin-top: 37px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .o-speedtest {
+    &__indicators {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    &__indicator {
+      padding: 0;
+      border: none;
+      width: 100%;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: normal;
+      margin-top: 20px;
+    }
+    &__start-btn {
+      width: auto;
+      width: 100%;
+      font-size: 16px;
+      line-height: normal;
+      padding: 10px;
+    }
+  }
+}

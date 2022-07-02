@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Интернет",
+    "accent": false,
+    "type": "home"
+  },
+  {
+    "id": 2,
+    "name": "Интернет + Кабельное ТВ",
+    "accent": true,
+    "type": "home"
+  },
+  {
+    "id": 3,
+    "name": "Интернет + Smart TV",
+    "accent": false,
+    "type": "home"
+  },
+  {
+    "id": 4,
+    "name": "Интернет + Телефония",
+    "accent": false,
+    "type": "home"
+  },
+  {
+    "id": 5,
+    "name": "Для ИП",
+    "accent": false,
+    "type": "business"
+  },
+  {
+    "id": 6,
+    "name": "Для ЮЛ",
+    "accent": true,
+    "type": "business"
+  },
+  {
+    "id": 7,
+    "name": "SIP-телефония",
+    "accent": false,
+    "type": "business"
+  }
+]

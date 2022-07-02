@@ -1,0 +1,201 @@
+@import '../../assets/styles/global.scss';
+
+.navbar {
+  background: $white;
+  padding: 25px 0px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+  }
+  &__logo {
+    flex: none;
+    width: 158px;
+    height: 95px;
+    color: $text-primary;
+    &:focus {
+      outline: none;
+    }
+    & > svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__links {
+    display: flex;
+    gap: 25px;
+  }
+  &__link {
+    position: relative;
+    text-decoration: none;
+    color: $text-primary;
+    font-weight: 400;
+    font-size: 18px;
+    transition: transform .2s ease-out;
+    &::after {
+      display: block;
+      position: absolute;
+      content: '';
+      left: 50%;
+      bottom: -7px;
+      height: 2px;
+      width: 0%;
+      transform: translate(-50%);
+      border-radius: 1px;
+      opacity: 0;
+      background: $gray;
+      transition: all .2s ease-out;
+    }
+    &:focus, &:hover {
+      outline: none;
+      transform: translateY(-2px);
+      &::after {
+        opacity: .1;
+        width: 100%;
+      }
+    }
+  }
+  &__phone {
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+    & > svg {
+      width: 30px;
+      height: 30px;
+    }
+    &-wrapper {
+      & > p {
+        font-weight: 700;
+        font-size: 17px;
+      }
+      & > span {
+        font-weight: 400;
+        font-size: 14px;
+        color: $text-secondary;
+        letter-spacing: 5px;
+      }
+    }
+  }
+  &__controls {
+    display: flex;
+    gap: 26px;
+  }
+  &__burger {
+    position: relative;
+    flex: none;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    & > svg {
+      flex: none;
+    }
+    & > span {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      height: 2px;
+      width: 20px;
+      background: $white;
+      &:first-child {
+        top: 35%;
+        transition: all .1s ease-out;
+      }
+      &:last-child {
+        top: 65%;
+        transition: all .1s ease-out;
+      }
+    }
+    &_active {
+      position: fixed;
+      z-index: 1001;
+      right: 20px;
+      top: 28px;
+      & > span {
+        opacity: 0;
+        &:first-child {
+          opacity: 1;
+          top: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+        &:last-child {
+          opacity: 1;
+          top: 50%;
+          transform: translate(-50%, -50%) rotate(-45deg);
+        }
+      }
+    }
+  }
+  &__menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: $white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    &-controls {
+      display: flex;
+      gap: 15px;
+      justify-content: space-between;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .navbar {
+    padding: 10px 0px;
+    &__wrapper {
+      justify-content: flex-end;
+    }
+    &__logo {
+      width: 159px;
+      height: 70px;
+      margin-right: auto;
+    }
+    &__links {
+      padding-left: 10px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    &__link {
+      font-size: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navbar {
+    &__logo {
+      width: 85px;
+      height: 50px;
+    }
+    &__phone {
+      &-wrapper {
+        & > p {
+          font-size: 14px;
+          line-height: 15px;
+        }
+        & > span {
+          font-size: 12px;
+          line-height: 10px;
+          letter-spacing: 3px;
+        }
+      }
+    }
+  }
+}

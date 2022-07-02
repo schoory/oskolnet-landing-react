@@ -1,0 +1,79 @@
+@import '../../assets/styles/global.scss';
+
+.address-form {
+  width: 100%;
+  background: linear-gradient(92.37deg, #263057 29.38%, #1D1444 100.81%);
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+  color: $white;
+  border-radius: 15px;
+  padding: 37px 59px 46px 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  &__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    & > svg {
+      flex: none;
+      width: 54px;
+      height: 54px;
+    }
+    & > input:last-of-type {
+      flex-shrink: 2;
+    }
+  }
+  &__input {
+    & svg {
+      width: 23px;
+      height: 28px;
+      color: $blue-dark;
+    }
+  }
+  &__btn {
+    text-align: center;
+    flex: none;
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .address-form {
+    &__wrapper {
+      & > input:last-of-type {
+        flex-shrink: 1;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .address-form {
+    padding: 25px 20px;
+    gap: 20px;
+    align-items: center;
+    &__title {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    &__wrapper {
+      flex: none;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    &__inputs {
+      flex-direction: column;
+      gap: 15px;
+    }
+    &__input {
+      padding: 9px 12px !important;
+    }
+  }
+}

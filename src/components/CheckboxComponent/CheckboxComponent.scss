@@ -1,0 +1,59 @@
+@import '../../assets/styles/global.scss';
+
+.o-checkbox {
+  position: relative;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  & > input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    &:checked {
+      & + .o-checkbox__mark {
+        &::after {
+          opacity: 1;
+          transform: translate(-50%, calc(-50% - 1px)) rotate(-45deg) scale(.9);
+        }
+      }
+    }
+  }
+  &_dark {
+    & .o-checkbox__mark {
+      border: 1px solid $blue-dark;
+      &::after {
+        border-bottom: 2px solid $blue-dark;
+        border-left: 2px solid $blue-dark;
+      }
+    }
+  }
+  &__mark {
+    flex: none;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border: 1px solid $white;
+    border-radius: 2px;
+    &::after {
+      position: absolute;
+      content: '';
+      left: 50%;
+      top: 50%;
+      width: 7px;
+      height: 4px;
+      border-bottom: 2px solid $white;
+      border-left: 2px solid $white;
+      opacity: 0;
+      transform: translate(-50%, calc(-50% - 1px)) rotate(-45deg) scale(.9);
+      transition: all .05s ease-out;
+    }
+  }
+  &__content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

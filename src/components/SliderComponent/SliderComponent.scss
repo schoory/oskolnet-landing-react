@@ -1,0 +1,74 @@
+@import '../../assets/styles/global.scss';
+
+.o-slider {
+  position: relative;
+  display: flex;
+  &__control {
+    flex: none;
+    padding: 0;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    transition: all .2s ease-out;
+    &:hover {
+      transform: translateX(-2px);
+    }
+    &:last-child {
+      &:hover {
+        transform: translateX(2px);
+      }
+    }
+    & > svg {
+      width: 40px;
+      height: 40px;
+      flex: none;
+      color: $blue;
+    }
+  }
+  &__controls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  &__item {
+    flex: none;
+    width: 100%;
+    transition: margin .2s ease-out;
+  }
+  &__navigation {
+    display: flex;
+    gap: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 48px;
+    transform: translateX(-50%);
+    &-btn {
+      display: block;
+      width: 9px;
+      height: 9px;
+      border: none;
+      border-radius: 10px;
+      padding: 0;
+      background: $slider-dot-color;
+      transition: all .2s ease-out;
+      &_active {
+        width: 27px;
+        background-color: $slider-dot-active-color;
+      }
+      &_small {
+        &.o-slider__navigation-btn_active {
+          width: 9px;
+        }
+      }
+    }
+  }
+}

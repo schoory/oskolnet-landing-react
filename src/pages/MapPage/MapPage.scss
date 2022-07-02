@@ -1,0 +1,116 @@
+@import '../../assets/styles/global.scss';
+
+.map-page {
+  position: relative;
+  width: 100%;
+  height: 714px;
+  padding: 29px 0px;
+  &__map {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    transition: filter .2s ease-out;
+    z-index: 0;
+    &_active {
+      filter: grayscale(0);
+    }
+  }
+  &__blackout {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(38, 48, 87, 0.16) 11.13%, rgba(38, 48, 87, 0) 74.23%);
+    transition: opacity .2s ease-out;
+    &_hide {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  & .breadcrumbs {
+    position: absolute;
+    z-index: 1;
+  }
+  & .o-section {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    gap: 47px;
+  }
+  &__wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+  }
+  &__panel-blackout {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: $white;
+    width: 590px;
+    z-index: 1;
+    opacity: .95;
+  }
+  &__panel {
+    padding: 40px 50px 37px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 590px;
+    z-index: 2;
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__contacts-item {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    & > svg {
+      width: 28px;
+      height: 30px;
+    }
+    & > p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+    }
+    & .map-page__phone {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 25px;
+    }
+  }
+  &__socials {
+    display: flex;
+    gap: 17px;
+    & > a {
+      & > svg {
+        width: 31px;
+        height: 31px;
+        color: $blue;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map-page {
+    & .o-section {
+      gap: 20px;
+    }
+    &__panel {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+}

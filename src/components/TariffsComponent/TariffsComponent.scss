@@ -1,0 +1,545 @@
+@import '../../assets/styles/global';
+
+.tariffs {
+  width: 100%;
+  background: $white;
+  border-radius: 15px;
+  box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+  &__categories {
+    padding: 51px 20px 25px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+  }
+  &__category {
+    position: relative;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    text-decoration: none;
+    color: $text-primary;
+    font-weight: 400;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: transform .2s ease-out;
+    &::after {
+      display: block;
+      position: absolute;
+      content: '';
+      left: 50%;
+      bottom: -7px;
+      height: 2px;
+      width: 0%;
+      transform: translate(-50%);
+      border-radius: 1px;
+      opacity: 0;
+      background: $gray;
+      transition: all .2s ease-out;
+    }
+    &:focus, &:hover {
+      outline: none;
+      transform: translateY(-2px);
+      &::after {
+        opacity: .1;
+        width: 100%;
+      }
+    }
+    &-badge {
+      background: $blue;
+      color: $white;
+      padding: 2px 10px;
+      font-weight: 700;
+      font-size: 12px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    &_active {
+      pointer-events: none;
+      &::after {
+        display: block;
+        position: absolute;
+        content: '';
+        left: 50%;
+        bottom: -7px;
+        height: 2px;
+        width: 100%;
+        transform: translate(-50%);
+        border-radius: 1px;
+        opacity: 1;
+        background: $blue;
+        transition: all .2s ease-out;
+      }
+    }
+  }
+  &__cards {
+    padding: 25px 20px 86px 20px;
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+.tariffs-modal-about {
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $blue-dark;
+    opacity: .15;
+  }
+  &__wrapper {
+    position: relative;
+    padding: 54px 120px 83px 67px;
+    z-index: 1;
+    border-radius: 30px;
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  &__close-btn {
+    position: absolute;
+    flex: none;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    right: 60px;
+    top: 46px;
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: background .2s ease-out;
+    border-radius: 5px;
+    &:hover, &:focus {
+      background: $white-dark;
+    }
+    & > svg {
+      width: 100%;
+      height: 100%;
+      color: $blue-dark;
+    }
+  }
+  &__content {
+    display: grid;
+    gap: 27px 76px;
+  }
+  &__technical {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__promo {
+    grid-column: 2/2;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  &__connect {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    padding-top: 25px;
+    border-top: 1px solid rgba($color: #000000, $alpha: .1);
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+  &__speed {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $text-secondary;
+    &-mark {
+      position: relative;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: $modal-list-mark;
+      &::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-left: 1px solid $blue;
+        border-bottom: 1px solid $blue;
+        width: 7px;
+        height: 5px;
+        transform: translate(-50%, calc(-50% - 1.5px)) rotate(-45deg);
+      }
+    }
+  }
+  &__environment {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 500px;
+  }
+  &__bonuses {
+    display: flex;
+    justify-content: space-around;
+    gap: 47px;
+  }
+  &__bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  &__price {
+    display: flex;
+    gap: 14px;
+    align-items: flex-end;
+    & > big {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 38px;
+      color: $blue;
+    }
+    & > p {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 33px;
+    }
+  }
+}
+
+.tariffs-modal-connect {
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $blue-dark;
+    opacity: .15;
+  }
+  &__wrapper {
+    position: relative;
+    padding: 54px 65px 83px 67px;
+    z-index: 1;
+    border-radius: 30px;
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  &__close-btn {
+    position: absolute;
+    flex: none;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    right: 40px;
+    top: 57px;
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: background .2s ease-out;
+    border-radius: 5px;
+    &:hover, &:focus {
+      background: $white-dark;
+    }
+    & > svg {
+      width: 100%;
+      height: 100%;
+      color: $blue-dark;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: flex-start;
+  }
+  &__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  &__input:first-child {
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(38, 48, 87, 0.5);
+    &:focus {
+      color: $blue-dark;
+    }
+  }
+  &__connect-btn {
+    width: 223px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tariffs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px 30px 20px;
+    & .o-slider {
+      padding-bottom: 20px;
+    }
+    &__cards {
+      grid-template-columns: repeat(5, 228px);
+      padding: 20px 0px;
+      overflow: auto;
+    }
+    &__categories {
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tariffs-modal-about {
+    padding: 20px;
+    overflow: hidden;
+    &__content {
+      gap: 20px 60px;
+      overflow: auto;
+      height: 100%;
+      grid-template-rows: auto 1fr;
+    }
+    &__wrapper {
+      gap: 20px;
+      padding: 40px;
+      overflow: auto;
+      height: 100%;
+    }
+    &__close-btn {
+      top: 45px;
+    }
+    &__connect {
+      grid-column: 2/2;
+      grid-row: 1/2;
+      border: none;
+      & > button {
+        padding: 10px 25px !important;
+      }
+    }
+    &__promo {
+      grid-column: 1/3;
+      grid-row: 2/2;
+    }
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .tariffs {
+    &__categories {
+      flex-wrap: wrap;
+      gap: 15px 20px;
+    }
+    &__category {
+      text-align: center;
+      &::after {
+        bottom: -2px;
+      }
+    }
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .tariffs {
+    &__category {
+      font-size: 14px;
+      line-height: 19px;
+      &-badge {
+        font-size: 9px;
+        line-height: 13px;
+      }
+    }
+  }
+  .tariffs-modal-about {
+    &__title {
+      font-size: 25px;
+      line-height: 32px;
+    }
+    &__close-btn {
+      position: static;
+      top: 35px;
+    }
+    &__content {
+      gap: 20px;
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: 147px auto 1fr;
+      overflow-x: hidden;
+    }
+    &__technical {
+      grid-column: 1/1;
+      grid-row: 1/3;
+      gap: 5px;
+    }
+    &__connect {
+      grid-column: 1/1;
+      grid-row: 2/3;
+      padding: 15px 0px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      align-items: center;
+      gap: 10px;
+      & > button {
+        font-size: 18px;
+        line-height: normal;
+      }
+    }
+    &__promo {
+      grid-column: 1/1;
+      grid-row: 3/3;
+    }
+    &__price {
+      flex: none;
+      gap: 3px;
+      & > big {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      & > p {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    &__speed {
+      font-size: 20px;
+      line-height: normal;
+    }
+    &__environment {
+      font-size: 16px;
+      line-height: normal;
+    }
+    &__item {
+      font-size: 14px;
+      line-height: normal;
+      &-mark {
+        width: 13px;
+        height: 13px;
+        &::before {
+          width: 6px;
+          height: 3px;
+          transform: translate(-50%, -50%) rotate(-45deg);
+        }
+      }
+    }
+    &__description {
+      font-size: 14px;
+      line-height: normal;
+    }
+    &__bonuses {
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    &__bonus {
+      & > img {
+        width: 25px;
+        height: 25px;
+      }
+      & > p {
+        font-size: 14px;
+        line-height: normal;
+      }
+    }
+  }
+  .tariffs-modal-connect {
+    padding: 20px;
+    overflow: hidden;
+    &__wrapper {
+      padding: 40px;  
+      gap: 20px;
+    }
+    &__title {
+      font-size: 20px;
+      line-height: normal;
+    }
+    &__close-btn {
+      position: static;
+      width: 35px;
+      height: 35px;
+    }
+    &__input {
+      padding: 15px 15px !important;
+      font-size: 16px !important;
+      line-height: normal !important;
+      & > input {
+        font-size: 16px !important;
+        line-height: normal !important;
+        &::placeholder {
+          font-size: 16px !important;
+          line-height: normal !important;
+        }
+      }
+    }
+    &__connect-btn {
+      font-size: 18px;
+      line-height: normal;
+    }
+  }
+}

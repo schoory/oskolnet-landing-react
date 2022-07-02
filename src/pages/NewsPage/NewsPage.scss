@@ -1,0 +1,73 @@
+@import '../../assets/styles/global.scss';
+
+.news-page {
+  padding: 32px 0px 76px 0px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+
+  & .o-section {
+    gap: 33px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 37px 19px;
+  }
+  &__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+    flex-wrap: wrap;
+  }
+  &__nav {
+    width: 47px;
+    height: 47px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-out;
+    &:hover {
+      background: $white-dark;
+    }
+    &_active {
+      background: $blue;
+      color: $white;
+      &:hover {
+        background: $blue;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .news-page__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-page {
+    padding: 40px 0px;
+    & .o-section {
+      gap: 20px;
+    }
+    &__grid {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+  }
+}
